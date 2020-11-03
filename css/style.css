@@ -1,0 +1,68 @@
+/*Sfondo*/
+body{
+  background-image: url(https://cdn.pixabay.com/photo/2013/02/21/19/12/lumber-84678_960_720.jpg);
+  background-size: cover;
+  /*box-sizing: content-box;
+  height: 800px;
+  width: 600px;
+  padding: 200px 300px;*/
+}
+/*container pagina*/
+.container{
+  width: 1000px;
+  height: 800px;
+  margin: auto;
+  margin-top: 50px;
+}
+/*logo*/
+.logo {
+  height: 75px;
+  vertical-align: bottom;
+}
+/*Stile header inizio*/
+.text{
+  text-align: sub;
+  color: white;
+  font-size: 70px
+}
+hr{
+  color: white;
+}
+.unread{
+  color: white;
+  font-size: 50px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.num{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-color: orange;
+  border-radius: 50%;
+  padding: 7px;
+  vertical-align: middle;
+}
+/*Stile header fine*/
+/*mailbox inizio*/
+.email-row{
+  border: 1px solid black;
+}
+.email-row-read{
+  background-color: white;
+  border: 1px solid black;
+}
+.email{
+  background-color: lightgray;
+}
+
+.testo-mail{
+  display: inline;
+}
+/*mailbox fine*/
+footer{
+  color: white;
+  text-align:center;
+  font-size: 20px
+}
+/*il vertical align si puó dare ad elementi inline, inline-block e celle di tabelle*/
